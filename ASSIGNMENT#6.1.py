@@ -13,5 +13,5 @@ for i in range (10):
         score += 1
         print ("Correct")
     else:
-        print ("Incorrect")
+        print (f"Incorrect, the correct answer is {formula}")
 print ("You got " + str (score) + " right answer/s, over 10 items")
